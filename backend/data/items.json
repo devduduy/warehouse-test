@@ -1,0 +1,60 @@
+[
+  {
+    "id": "06dab0dd-6035-4dff-9b26-f7224bb2cbde",
+    "name": "Jepitan Rambut",
+    "stock": 22,
+    "unit": "Pcs",
+    "source": "local",
+    "createdAt": "2026-01-12T10:40:30.614Z"
+  },
+  {
+    "id": "70eaa065-33c5-447e-b78c-39652d4f9bdc",
+    "name": "Gantungan Kunci",
+    "stock": 202,
+    "unit": "Pcs",
+    "source": "local",
+    "createdAt": "2026-01-12T10:29:53.421Z"
+  },
+  {
+    "id": "a741d617-cae5-443c-93c8-f2059ebd0094",
+    "name": "Kabel NXXHX 3x1,5",
+    "stock": 30,
+    "unit": "Roll",
+    "source": "local",
+    "createdAt": "2026-01-12T09:07:38.173Z"
+  },
+  {
+    "id": "8515422c-d7e3-41e9-99ff-6b5b5ad6f167",
+    "name": "Gunting Kuku",
+    "stock": 1000,
+    "unit": "Pcs",
+    "source": "local",
+    "createdAt": "2026-01-12T09:06:49.593Z"
+  },
+  {
+    "id": "7a591c84-7e9c-42a8-9e3e-aa34f15a6d3c",
+    "name": "Karet Gelang",
+    "stock": 35,
+    "unit": "Pcs",
+    "source": "local",
+    "createdAt": "2026-01-12T09:06:27.754Z"
+  },
+  {
+    "id": "f0ee2d67-da1a-4883-b09d-09289d47b35e",
+    "name": "Obeng",
+    "stock": 35,
+    "unit": "Pcs",
+    "source": "local",
+    "createdAt": "2026-01-12T07:54:02.162Z",
+    "updatedAt": "2026-01-12T07:56:19.097Z"
+  },
+  {
+    "id": "4060fd77-8d11-4f4d-a5d9-0bf3449fba68",
+    "name": "Beras Putih",
+    "stock": 167,
+    "unit": "Kg",
+    "source": "local",
+    "createdAt": "2026-01-12T06:22:05.993Z",
+    "updatedAt": "2026-01-12T08:09:07.369Z"
+  }
+]
