@@ -1,0 +1,24 @@
+<mat-card class="login-card">
+    <h2>Login</h2>
+  
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password" />
+      </mat-form-field>
+  
+      <p class="error" *ngIf="error">{{ error }}</p>
+  
+      <div class="btn-login">
+        <button mat-flat-button type="submit" [disabled]="loading || form.invalid" class="btn-login-inner">
+          {{ loading ? 'Loading...' : 'Login' }}
+        </button>
+      </div>
+    </form>
+  </mat-card>
+  

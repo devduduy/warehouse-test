@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+/* Baris utama */
+.header-main {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+// .sticky-actions {
+//   position: sticky;
+//   top: 64px; // tinggi mat-toolbar (desktop)
+//   z-index: 5;
+//   background: white; // penting biar gak tembus table
+//   padding: 8px 0;
+// }
+
+.search {
+  flex: 1;
+  min-width: 220px;
+}
+
+.add-btn {
+  height: 56px; // samain dengan mat-form-field outline
+  padding: 0 60px;
+}
+
+/* Baris sekunder */
+.header-secondary {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.header-secondary .left,
+.header-secondary .right {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.loading-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;  // biar beneran “tengah layar”, bukan cuma tengah baris
+}
+
+.custom-color-btn {
+  background-color: rgb(201, 81, 81); /* Your specific color */
+  color: white; /* For text visibility */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header-main {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-secondary {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-secondary .left,
+  .header-secondary .right {
+    justify-content: flex-start;
+  }
+}
+
+
+
+mat-chip.api { opacity: 0.85; }
+mat-chip.local { font-weight: 600; }
+
